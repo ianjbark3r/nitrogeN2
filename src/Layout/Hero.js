@@ -1,4 +1,5 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import logo from '../Images/logo.png'
 
@@ -19,7 +20,7 @@ const Hero = () => {
       className={rowClasses}
       style={heroRowStyles}
     >
-      <div 
+      <div
         className={colClasses}
         style={heroContentStyles}
       >
@@ -30,27 +31,33 @@ const Hero = () => {
         />
         <h1>Redefining Tire Safety and Performance</h1>
         <div>
-          <button 
-            className={buttonClasses}
-            style={servicesButtonStyles}
-            type="button" 
-          >
-            Services
-          </button>
-          <button 
-            className={buttonClasses}
-            style={apptsButtonStyles}
-            type="button" 
-          >
-            Appointments
-          </button>
-          <button 
-            className={buttonClasses}
-            style={whyButtonStyles}
-            type="button" 
-          >
-            Why N<sub>2</sub>
-          </button>
+          <AnchorLink href="#services">
+            <button 
+              className={buttonClasses}
+              style={servicesButtonStyles}
+              type="button" 
+            >
+              Services
+            </button>
+          </AnchorLink>
+          <AnchorLink href="#booking">
+            <button 
+              className={buttonClasses}
+              style={apptsButtonStyles}
+              type="button" 
+            >
+              Appointments
+            </button>
+          </AnchorLink>
+          <AnchorLink href="#info">
+            <button 
+              className={buttonClasses}
+              style={whyButtonStyles}
+              type="button" 
+            >
+              Why N<sub>2</sub>
+            </button>
+          </AnchorLink>
         </div>
       </div>
     </div>

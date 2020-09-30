@@ -1,29 +1,29 @@
 import React from 'react';
-import { 
+import {
   colClasses,
   hrStyles,
   infoColStyles,
   infoContentClasses,
   infoContentStyles,
-  infoRowStyles, 
+  infoRowStyles,
   titleClasses,
-  rowClasses 
+  rowClasses
 } from '../styles';
 
 const Info = () => {
   return (
     <>
-      <div 
+      <div
         className={rowClasses}
         id="info"
         style={infoRowStyles}
       >
-        <div 
+        <div
           className={colClasses}
           style={infoColStyles}
         >
-          <h1 className={titleClasses}>WHY N<sub>2</sub>?</h1>
-          <hr style={hrStyles} />     
+          <h1 className={titleClasses}>ABOUT nitrogeN<sub>2</sub></h1>
+          <hr style={hrStyles} />
         </div>
       </div>
       <div
@@ -34,7 +34,7 @@ const Info = () => {
           className={infoContentClasses}
           style={infoColStyles}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non sodales neque sodales ut. Placerat duis ultricies lacus sed turpis tincidunt. Urna porttitor rhoncus dolor purus non enim praesent elementum. Elit pellentesque habitant morbi tristique senectus. Pulvinar etiam non quam lacus. Aliquet nec ullamcorper sit amet risus nullam eget felis. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. At consectetur lorem donec massa sapien faucibus et molestie. Bibendum enim facilisis gravida neque. Consequat interdum varius sit amet. Neque egestas congue quisque egestas diam. Adipiscing elit ut aliquam purus sit amet luctus. At tellus at urna condimentum mattis. Id cursus metus aliquam eleifend mi in. Risus nec feugiat in fermentum posuere urna nec tincidunt praesent. Nibh mauris cursus mattis molestie a iaculis. A cras semper auctor neque vitae tempus quam pellentesque nec. In vitae turpis massa sed elementum. Amet nisl purus in mollis.
+          We are a local Veteran-owned and operated company providing convenient mobile nitrogen tire services. We are dedicated to upholding the highest level of quality customer service, professionalism, and safety in the greater Austin community!
         </div>
         <div
           className={infoContentClasses}

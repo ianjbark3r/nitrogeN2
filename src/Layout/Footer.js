@@ -1,11 +1,22 @@
 import React from 'react';
-import { colClasses, rowClasses } from '../styles';
+import { 
+  colClasses, 
+  footerColStyles, 
+  footerRowStyles, 
+  rowClasses 
+} from '../styles';
 
 const Footer = () => {
   return (
-    <div className={rowClasses}>
-      <div className={colClasses}>
-        Footer
+    <div 
+      className={rowClasses} 
+      style={footerRowStyles}
+    >
+      <div 
+        className={colClasses} 
+        style={footerColStyles}
+      >
+        COPYRIGHT 2020
       </div>
     </div>
   )

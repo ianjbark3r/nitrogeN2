@@ -80,14 +80,34 @@ export const infoContentStyles = {
 
 
 // Services
+export const servicesContentClasses = "col-12 col-md-4"
+
+export const servicesH1Classes = "py-2"
+
+export const servicesH3Classes = "pt-4 pb-2"
+
+export const servicesHOOClasses = "col-12 col-md-8"
+
 export const servicesRowStyles = {
-  background: `${servicesColor}`,
-  paddingTop: "12vh",
-  height: "100vh"
+  backgroundColor: `${servicesColor}`,
+  border: `6px solid ${servicesColor}`,
+  paddingTop: "12vh"
 }
 
 export const servicesColStyles = {
-  color: `${lightFontColor}`
+  color: `${lightFontColor}`,
+  fontSize: "1.2rem"
+}
+
+export const servicesContentStyles = {
+  backgroundColor: `${servicesColor}`,
+  paddingBottom: "17vh"
+}
+
+export const servicesHOOStyles = {
+  backgroundColor: `${servicesColor}`,
+  border: `6px solid ${servicesColor}`,
+  paddingBottom: "2vh"
 }
 
 
@@ -100,4 +120,16 @@ export const bookingRowStyles = {
 
 export const bookingColStyles = {
   color: `${lightFontColor}`
+}
+
+
+// Footer
+export const footerRowStyles = {
+  paddingTop: "4vh",
+  paddingBottom: "8vh"
+}
+
+export const footerColStyles = {
+  fontWeight: "bold",
+  textAlign: "right"
 }
