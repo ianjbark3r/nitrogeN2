@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 
 import logo from '../Images/logo.png';
 
@@ -21,58 +22,60 @@ const Nav = () => {
       >
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <a className="navbar-brand" href="#">
+            <Link className="navbar-brand" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item dropdown">
-            <a 
+            <Link 
               className="navbar-brand dropdown-toggle" 
-              href="#" 
+              to="/about" 
               id="navbarDropdownMenuLink1" 
               data-toggle="dropdown" 
               aria-haspopup="true" 
               aria-expanded="false">
               About Us
-          </a>
+          </Link>
             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
-              <a className="dropdown-item" href="#">What We Do</a>
-              <a className="dropdown-item" href="#">Leadership</a>
-              <a className="dropdown-item" href="#">Contact Us</a>
+              <Link className="dropdown-item" to="/about#what-we-do">What We Do</Link>
+              <Link className="dropdown-item" to="/about#leadership">Leadership</Link>
+              <Link className="dropdown-item" to="/about#contact">Contact Us</Link>
+              <Link className="dropdown-item" to="/about#bio">Bio</Link>
             </div>
           </li>
           <li className="nav-item">
-            <a className="navbar-brand" href="#">
+            <Link className="navbar-brand" to="/why_n2">
               Why N<sub>2</sub>?
-            </a>
+            </Link>
           </li>
           <li className="nav-item dropdown">
-            <a
+            <Link
               className="navbar-brand dropdown-toggle"
-              href="#"
+              to="/services"
               id="navbarDropdownMenuLink2"
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false">
               Services
-          </a>
+          </Link>
             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-              <a className="dropdown-item" href="#">Pricing</a>
+              <Link className="dropdown-item" to="/services#pricing">Pricing</Link>
+              <Link className="dropdown-item" to="/services#details">Services</Link>
             </div>
           </li>
           <li className="nav-item">
-            <a className="navbar-brand" href="#">
+            <Link className="navbar-brand" to="/schedule_now">
               Schedule Now
-            </a>
+            </Link>
           </li>
         </ul>
         <span className="navbar-text mr-4">
           Redefining Tire Safety and Performance
         </span>
       </div>
-      <a className="navbar-brand" href="#">
+      <Link className="navbar-brand" to="/">
         <img src={logo} height="50" className="d-inline-block align-top" alt="" />
-      </a>
+      </Link>
     </nav>
   )
 }
