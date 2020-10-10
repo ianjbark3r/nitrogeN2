@@ -14,7 +14,7 @@ import slide5 from '../Images/slide-5.png';
 const Home = () => {
   return (
     <div className="container-fluid">
-      <div className="row justify-content-center">
+      <div className="row justify-content-center" style={{backgroundColor: "#EFEFEF"}}>
         <div id="carouselIndicators" className="carousel slide" data-ride="carousel">
           <ol className="carousel-indicators">
             <li data-target="#carouselIndicators" data-slide-to="0" className="active"></li>
@@ -50,8 +50,7 @@ const Home = () => {
           </div>
           <a 
             className="carousel-control-prev" href="#carouselIndicators" 
-            role="button" 
-            style={{marginLeft: "-3.5rem"}}
+            role="button"
             data-slide="prev"
           >
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -60,8 +59,7 @@ const Home = () => {
           <a 
             className="carousel-control-next" 
             href="#carouselIndicators" 
-            role="button" 
-            style={{marginRight: "-3.5rem"}}
+            role="button"
             data-slide="next"
           >
             <span className="carousel-control-next-icon" aria-hidden="true"></span>
@@ -69,26 +67,27 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <div className="row justify-content-center">
-        <div className="col-md-8 my-5">
+      <div className="row justify-content-center" style={{ backgroundColor: "#EEEEEE" }}>
+        <div className="col-md-8 col-lg-7 my-5">
           <h1 className="text-center">About Us</h1>
           <hr />
           <p className="text-center">
-            We are a local Veteran-owned and operated company providing convenient mobile nitrogen tire services. We are dedicated to upholding the highest level of quality customer service, professionalism, and safety in the greater Austin community! Please continue to check back as we further develop our website.
+            We are a local Veteran-owned and operated company providing convenient mobile nitrogen tire services. We are dedicated to upholding the highest level of quality customer service, professionalism, and safety in the greater Austin community!
           </p>
         </div>
       </div>
-      <div className="row justify-content-center">
-        <div className="col-md-8 mt-5">
-          <h1 className="text-center">Our Services</h1>
-          <hr />
-        </div>
-      </div>
-      <div className="row justify-content-center">
+      {/* <div className="row justify-content-center">
         <div className="col-md-8 my-4">
           <div className="card-deck">
-            <div className="card">
-              <img className="card-img-top mt-4" src={card1} alt="" />
+            
+          </div>
+        </div>
+      </div> */}
+      <div className="row justify-content-center">
+        <div className="col-md-10 mb-5 pt-5">
+          <div className="card-deck">
+            <div className="card border-dark">
+              <img className="card-img-top mt-4 mx-auto" src={card1} style={{width: "60px"}} alt="" />
               <div className="card-body">
                 <h5 className="card-title text-center">N<sub>2</sub> Tire Services</h5>
                 <p className="card-text text-center">
@@ -96,8 +95,8 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="card">
-              <img className="card-img-top mt-4" src={card2} alt="" />
+            <div className="card border-dark">
+              <img className="card-img-top mt-4 mx-auto" src={card2} style={{width: "60px"}} alt="" />
               <div className="card-body">
                 <h5 className="card-title text-center">Pressure Low?</h5>
                 <p className="card-text text-center">
@@ -105,14 +104,8 @@ const Home = () => {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div className="row justify-content-center">
-        <div className="col-md-8 mb-5">
-          <div className="card-deck">
-            <div className="card">
-              <img className="card-img-top mt-4" src={card3} alt="" />
+            <div className="card border-dark">
+              <img className="card-img-top mt-4 mx-auto" src={card3} style={{width: "60px"}} alt="" />
               <div className="card-body">
                 <h5 className="card-title text-center">Quality Service and Safety</h5>
                 <p className="card-text text-center">
@@ -120,8 +113,8 @@ const Home = () => {
                   </p>
               </div>
             </div>
-            <div className="card">
-              <img className="card-img-top mt-4" src={card4} alt="" />
+            <div className="card border-dark">
+              <img className="card-img-top mt-4 mx-auto" src={card4} style={{width: "60px"}} alt="" />
               <div className="card-body">
                 <h5 className="card-title text-center">Peace of Mind</h5>
                 <p className="card-text text-center">

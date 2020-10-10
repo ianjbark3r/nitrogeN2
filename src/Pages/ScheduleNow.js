@@ -5,6 +5,7 @@ const ScheduleNow = () => {
     <div className="container-fluid">
       <div className="row justify-content-center">
         <div className="col-md-8 my-5">
+          <script src='https://squareup.com/appointments/buyer/widget/hq979sx173c049/LPMDYR6M8CT8K.js'></script>
           <h1>Schedule Now</h1>
           <hr />
           <form>
@@ -27,7 +28,25 @@ const ScheduleNow = () => {
               </div>
             </div>
             <div className="form-row">
-              <div className="col-md-2">
+              <div className="form-group col-md-4">
+                <label for="inputPhone">Phone #:</label>
+                <input
+                  className="form-control"
+                  type="text"
+                  id="inputPhone"
+                />
+              </div>
+              <div className="form-group col-md-8">
+                <label for="inputEmail">Email:</label>
+                <input
+                  className="form-control"
+                  type="text"
+                  id="inputEmail"
+                />
+              </div>
+            </div>
+            <div className="form-row">
+              <div className="form-group col-4 col-md-2">
                 <label for="vehicleYear">Vehicle year:</label>
                 <input
                   className="form-control"
@@ -84,20 +103,40 @@ const ScheduleNow = () => {
                 />
               </div>
             </div>
-            <div className="form-check">
-              <input 
-                className="form-check-input" 
-                id="check1" 
-                type="checkbox" 
-                value="" 
-              />
-              <label className="form-check-label" for="check1">
-                Use different address for service
-              </label>
+            <div className="form-row">
+              <div className="form-group form-check">
+                <input 
+                  className="form-check-input" 
+                  id="check1" 
+                  type="checkbox" 
+                  value="" 
+                />
+                <label className="form-check-label" for="check1">
+                  Use different address for service
+                </label>
+              </div>
+            </div>
+            <div className="form-row">
+              <div className="form-group col-md-6">
+                <label for="inputTireSize">Tire size (if known):</label>
+                <input
+                  className="form-control"
+                  type="text"
+                  id="inputTireSize"
+                />
+              </div>
+              <div className="form-group col-md-6">
+                <label for="inputTireAge">Tire age (if known):</label>
+                <input
+                  className="form-control"
+                  type="text"
+                  id="inputTireAge"
+                />
+              </div>
             </div>
           </form>
           <div className="form-row justify-content-end">
-            <div className="col-auto">
+            <div className="col">
               <button 
                 className="btn btn-primary mt-4"
                 type="submit" 

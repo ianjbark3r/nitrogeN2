@@ -2,11 +2,11 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 
-import logo from '../Images/logo.png';
+import logo from '../Images/logo-dark.png';
 
 const Nav = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <button 
         className="navbar-toggler" 
         type="button" 
@@ -33,20 +33,31 @@ const Nav = () => {
               id="navbarDropdownMenuLink1" 
               data-toggle="dropdown" 
               aria-haspopup="true" 
-              aria-expanded="false">
+              aria-expanded="false"
+            >
               About Us
           </Link>
             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
               <Link className="dropdown-item" to="/about#what-we-do">What We Do</Link>
               <Link className="dropdown-item" to="/about#leadership">Leadership</Link>
               <Link className="dropdown-item" to="/about#contact">Contact Us</Link>
-              <Link className="dropdown-item" to="/about#bio">Bio</Link>
             </div>
           </li>
-          <li className="nav-item">
-            <Link className="navbar-brand" to="/why_n2">
+          <li className="nav-item dropdown">
+            <Link
+              className="navbar-brand dropdown-toggle"
+              to="/why_n2"
+              id="navbarDropdownMenuLink2"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
               Why N<sub>2</sub>?
             </Link>
+            <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+              <Link className="dropdown-item" to="/why_n2">Why N<sub>2</sub>?</Link>
+              <Link className="dropdown-item" to="/why_n2#tire-safety">Tire Safety</Link>
+            </div>
           </li>
           <li className="nav-item dropdown">
             <Link
@@ -64,13 +75,31 @@ const Nav = () => {
             </div>
           </li>
           <li className="nav-item">
-            <Link className="navbar-brand" to="/schedule_now">
-              Schedule Now
-            </Link>
+            <a 
+              className="navbar-brand"
+              href="https://squareup.com/appointments/buyer/widget/hq979sx173c049/LPMDYR6M8CT8K"
+              style={{
+                backgroundColor: "#0457a7", 
+                color: "white", 
+                height: "40px",
+                textTransform: "uppercase",
+                fontFamily: `'Square Market', 'helvetica neue', helvetica, arial, sans-serif`,
+                letterSpacing: "1px",
+                lineHeight: "38px", 
+                padding: "0 28px", 
+                borderRadius: "3px",
+                fontWeight: "500", 
+                fontSize: "14px", 
+                cursor: "pointer", 
+                display: "inline-block"
+                }}
+              >
+                Schedule Now
+            </a>
           </li>
         </ul>
         <span className="navbar-text mr-4">
-          Redefining Tire Safety and Performance
+          <em>Redefining Tire Safety and Performance</em>
         </span>
       </div>
       <Link className="navbar-brand" to="/">
