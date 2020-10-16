@@ -83,7 +83,6 @@ const Nav = () => {
                 color: "white", 
                 height: "40px",
                 textTransform: "uppercase",
-                fontFamily: `'Square Market', 'helvetica neue', helvetica, arial, sans-serif`,
                 letterSpacing: "1px",
                 lineHeight: "38px", 
                 padding: "0 28px", 

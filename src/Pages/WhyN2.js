@@ -19,7 +19,7 @@ const WhyN2 = () => {
         <div className="col-md-5">
           <p>
             Why nitrogen (N<sub>2</sub>), you ask? The aviation industry and
-            NASCAR have been using N<sub>2</sub> in their tires decades. Their two main reasons: safety and performance. Nitrogen-filled tires have statistically shown to maintain tire pressure longer, thus directly improving vehicle gas mileage, tire life, and overall running stability. Trust the Pros, we’ve got you covered!
+            NASCAR have been using N<sub>2</sub> in their tires for decades. Their two main reasons: safety and performance. Nitrogen-filled tires have statistically shown to maintain tire pressure longer, thus directly improving vehicle gas mileage, tire life, and overall running stability. Trust the Pros, we’ve got you covered!
           </p>
         </div>
       </div>

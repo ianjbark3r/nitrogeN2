@@ -1,5 +1,6 @@
 import React from 'react';
 import photo2 from '../Images/services-2.jpeg';
+import pricing from '../Images/pricing.png';
 
 const linkStyles = {
   textDecoration: "none",
@@ -25,7 +26,7 @@ const Services = () => {
         </div>
         <div className="col-md-4">
           <h4>
-            <a href="#nitrogen-top-off" style={linkStyles}>Nitrogen Top-Off</a>
+            <a href="#pricing" style={linkStyles}>Nitrogen Top-Off</a>
           </h4>
           <p>
             Nitrogen getting low? Our mobile N<sub>2</sub> top-off service will quickly refill your tires with pure nitrogen to the proper inflation pressure (accurate up to + 0.1 psi). Includes a multi-point vehicle tire safety inspection with tread
@@ -35,7 +36,7 @@ const Services = () => {
             Prices listed for this service are per tire and are based on how many pounds per square inch (psi) are needed for each tire’s full and proper inflation per your vehicle manufacturer’s recommendations. Custom psi inflation is available upon request.
           </p>
           <h4>
-            <a href="#purge-and-fill" style={linkStyles}>
+            <a href="#pricing" style={linkStyles}>
               Full Tire Purge and Fill
             </a>
           </h4>
@@ -47,7 +48,7 @@ const Services = () => {
           </p>
           <p className="small"><em>*(Discount applies to spare tire only)</em></p>
           <h4>
-            <a href="#tpms-replacement" style={linkStyles}>
+            <a href="#pricing" style={linkStyles}>
               TPMS Replacement
             </a>
           </h4>
@@ -71,12 +72,14 @@ const Services = () => {
             className="img-fluid mb-3 w-100 d-none d-md-block"
             src={photo2}
           />
-          <h4>Valve Stem Repair/Replacement</h4>
+          <h4>
+            <a href="#pricing" style={linkStyles}>Valve Stem Repair/Replacement</a>
+          </h4>
           <p>
             Only available for vehicles that do not come equipped with TPMS sensors. Does not include N<sub>2</sub>fill.
           </p>
           <h4>
-            <a href="#nitrogen-shock-top-off" style={linkStyles}>Nitrogen Shock Top-Off</a>
+            <a href="#pricing" style={linkStyles}>Nitrogen Shock Top-Off</a>
           </h4>
           <p>
             Performance shocks in need of some nitrogen love? Book an appointment and we can top off the N 2 in your shocks with our convenient mobile services.
@@ -85,7 +88,7 @@ const Services = () => {
             Pricing listed for this service is per shock.
           </p>
           <h4>
-            <a href="#valve-stem-replacement" style={linkStyles}>Valve Stem Replacement</a>
+            <a href="#pricing" style={linkStyles}>Valve Stem Replacement</a>
           </h4>
           <p>
             Have a valve stem needing replacement? We can quickly and easily replace your leaking or dried up valve stem and get your tires rolling again.
@@ -101,11 +104,17 @@ const Services = () => {
       <div className="row justify-content-center mt-5 mb-2">
         <div className="col-md-8">
           <h1 id="pricing">Pricing</h1>
+          <hr />
         </div>
       </div>
       <div className="row justify-content-center mb-5">
-        <div className="col-md-8">
-          <table className="table table-borderless table-hover">
+        <div className="col-md-8 text-center">
+          <img
+            alt=""
+            className="img-fluid"
+            src={pricing}
+          />
+          {/* <table className="table table-borderless table-hover">
             <tbody>
               <tr id="nitrogen-top-off">
                 <th className="text-center align-middle" rowspan="4">Nitrogen Top-off</th>
@@ -177,7 +186,7 @@ const Services = () => {
                 <th colspan="3">We offer Active Duty, Veteran, and Sr. Citizen discounts. Please provide valid ID at time of appt.</th>
               </tr>
             </tbody>
-          </table>
+          </table> */}
         </div>
       </div>
       

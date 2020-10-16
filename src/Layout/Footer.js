@@ -1,8 +1,10 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
+
 import logo from '../Images/dark-logo.png';
 import lock from '../Images/lock.png'
 import payments from '../Images/payments.png';
-import contactlessIcon from '../Images/contactless-icon.png'
+import contactlessIcon from '../Images/contactless-icon.png';
 
 const Footer = () => {
   return (
@@ -13,11 +15,15 @@ const Footer = () => {
           <p><a href="https://www.facebook.com/Nitrogen2-110168524188309/">Facebook</a></p>
           <p><a href="https://www.instagram.com/nitrogen2141/">Instagram</a></p>
         </div>
-        {/* <div className="col-md-auto">
+        <div className="col-md-auto">
           <p><strong>LEGAL</strong></p>
-          <p>Terms of Use</p>
-          <p>Privacy Policy</p>
-        </div> */}
+          <p>
+            <Link to="/tos#top">Terms of Use</Link>
+          </p>
+          <p>
+            <Link to="/privacy#top">Privacy Policy</Link>
+          </p>
+        </div>
         <div className="col-md-auto">
           <p><strong>HOURS</strong></p>
           <p>M - F, 8AM - 6PM</p>
