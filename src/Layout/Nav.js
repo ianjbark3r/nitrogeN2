@@ -70,8 +70,8 @@ const Nav = () => {
               Services
           </Link>
             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-              <Link className="dropdown-item" to="/services#pricing">Pricing</Link>
               <Link className="dropdown-item" to="/services#details">Services</Link>
+              <Link className="dropdown-item" to="/services#pricing">Pricing</Link>
             </div>
           </li>
           <li className="nav-item">

@@ -47,7 +47,7 @@ const WhyN2 = () => {
           <p>
             Since nitrogen doesn’t support moisture or combustion, you’ll be driving with a much more stable pressure in your tires versus compressed air. This means that with properly maintained nitrogen- filled tires, your tires handling and traction will perform at their best.
           </p>
-          <h1 className="mt-5 mb-2" id="tire-safety">Tire Safety</h1>
+          <h1 className="mt-5 mb-2 text-center" id="tire-safety">Tire Safety</h1>
           <p>
             Nitrogen cannot change the laws of physics, we always recommend a monthly tire pressure safety check.
           </p>
@@ -61,6 +61,13 @@ const WhyN2 = () => {
             src={tireSafety} 
           />
           <h3 className="mt-5">DIY Tire Tread Check</h3>
+          <p>
+            Tire tread provides the gripping action and traction that helps your car or truck stop, and helps prevent slipping or sliding, especially when the road is icy or wet. Worn tires with little tread can be deadly on wet roads.
+          </p>
+          <p>
+            Per the <a href="https://www.nhtsa.gov/">National Highway Traffic Safety Administration</a>, tires are not safe and should be replaced when the tread is worn down to 2/32 of an inch. See the “Quarter and Penny Methods” below to perform your own tire
+            tread depth check regularly.
+          </p>
           <img 
             alt="A quarter and a penny can be used to accurately guage your tires wear" 
             className="img-fluid mb-5" 
