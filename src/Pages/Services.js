@@ -82,7 +82,7 @@ const Services = () => {
             <a href="#pricing" style={linkStyles}>Nitrogen Shock Top-Off</a>
           </h4>
           <p>
-            Performance shocks in need of some nitrogen love? Book an appointment and we can top off the N 2 in your shocks with our convenient mobile services.
+            Performance shocks in need of some nitrogen love? Book an appointment and we can top off the N<sub>2</sub> in your shocks with our convenient mobile services.
           </p>
           <p>
             Pricing listed for this service is per shock.
