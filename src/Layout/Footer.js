@@ -42,7 +42,33 @@ const Footer = () => {
             className="img"
             height="30"
             src={contactlessIcon}
-          />          
+          />
+          <a
+            className="sehzbum mt-2 d-block d-md-none"
+            href="https://www.bbb.org/us/tx/austin/profile/commercial-tire-service/nitrogen2-0825-1000192649/#sealclick"
+            id="bbblink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              alt="NitrogeN2 BBB Business Review"
+              src="https://seal-fortworth.bbb.org/logo/sehzbum/bbb-1000192649.png"
+              style={{ border: 0 }}
+            />
+          </a>
+          <a 
+            className="sehzbum mt-2 mx-auto d-none d-md-block" 
+            href="https://www.bbb.org/us/tx/austin/profile/commercial-tire-service/nitrogen2-0825-1000192649/#sealclick" 
+            id="bbblink" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <img 
+              alt="NitrogeN2 BBB Business Review" 
+              src="https://seal-fortworth.bbb.org/logo/sehzbum/bbb-1000192649.png" 
+              style={{border: 0}} 
+            />
+          </a>        
         </div>
         <div className="col-auto ml-auto d-none d-md-block">
           <hr />

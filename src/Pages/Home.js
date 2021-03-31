@@ -5,6 +5,7 @@ import card1 from '../Images/tire-services.png';
 import card2 from '../Images/service-safety.png';
 import card3 from '../Images/low-pressure.png';
 import card4 from '../Images/peace-of-mind.png';
+// import slide0 from '../Images/holiday-banner.png';
 import slide1 from '../Images/slide-1.jpg';
 import slide2 from '../Images/slide-2.png';
 import slide3 from '../Images/slide-3.png';
@@ -17,6 +18,7 @@ const Home = () => {
       <div className="row justify-content-center" style={{backgroundColor: "#EFEFEF"}}>
         <div id="carouselIndicators" className="carousel slide" data-ride="carousel">
           <ol className="carousel-indicators">
+            {/* <li data-target="#carouselIndicators" data-slide-to="0" className="active"></li> */}
             <li data-target="#carouselIndicators" data-slide-to="0" className="active"></li>
             <li data-target="#carouselIndicators" data-slide-to="1"></li>
             <li data-target="#carouselIndicators" data-slide-to="2"></li>
@@ -24,6 +26,9 @@ const Home = () => {
             <li data-target="#carouselIndicators" data-slide-to="4"></li>
           </ol>
           <div className="carousel-inner">
+{/*             <div className="carousel-item active">
+              <img className="d-block w-100" src={slide0} alt="welcome to nitrogeN2" />
+            </div> */}
             <div className="carousel-item active">
               <img className="d-block w-100" src={slide1} alt="welcome to nitrogeN2" />
             </div>

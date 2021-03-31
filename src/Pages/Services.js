@@ -29,8 +29,7 @@ const Services = () => {
             <a href="#pricing" style={linkStyles}>Nitrogen Top-Off</a>
           </h4>
           <p>
-            Nitrogen getting low? Our mobile N<sub>2</sub> top-off service will quickly refill your tires with pure nitrogen to the proper inflation pressure (accurate up to + 0.1 psi). Includes a multi-point vehicle tire safety inspection with tread
-            depth measurement.
+            Nitrogen getting low? Our mobile N<sub>2</sub> top-off service will quickly refill your tires with pure nitrogen to the proper inflation pressure (accurate up to + 0.1 psi). Includes a multi-point vehicle tire safety inspection with tread depth measurement.
           </p>
           <p>
             Prices listed for this service are per tire and are based on how many pounds per square inch (psi) are needed for each tire’s full and proper inflation per your vehicle manufacturer’s recommendations. Custom psi inflation is available upon request.
@@ -49,7 +48,7 @@ const Services = () => {
           <p className="small"><em>*(Discount applies to spare tire only)</em></p>
           <h4>
             <a href="#pricing" style={linkStyles}>
-              TPMS Replacement
+              TPMS Sensor Replacement
             </a>
           </h4>
           <p>
@@ -72,12 +71,6 @@ const Services = () => {
             className="img-fluid mb-3 w-100 d-none d-md-block"
             src={photo2}
           />
-          <h4>
-            <a href="#pricing" style={linkStyles}>Valve Stem Repair/Replacement</a>
-          </h4>
-          <p>
-            Only available for vehicles that do not come equipped with TPMS sensors. Does not include N<sub>2</sub>fill.
-          </p>
           <h4>
             <a href="#pricing" style={linkStyles}>Nitrogen Shock Top-Off</a>
           </h4>

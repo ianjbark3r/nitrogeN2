@@ -5,6 +5,21 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+    "redirects": [{
+      "source": "/about",
+      "destination": "/",
+      "type": 302
+    },
+    {
+      "source": "/why_n2",
+      "destination": "/",
+      "type": 302
+    },
+    {
+      "source": "/services",
+      "destination": "/",
+      "type": 302
+    }]
   }
 }
